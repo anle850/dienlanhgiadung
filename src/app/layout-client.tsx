@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+// import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Header from "../components/Header";
@@ -9,7 +9,7 @@ export default function LayoutClient({
 }: {
   children: React.ReactNode;
 }) {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  //   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
     <>

@@ -349,23 +349,23 @@ const features = [
   },
 ];
 
-const testimonials = [
-  {
-    initial: "N",
-    name: "Nguyễn Văn A",
-    location: "Quận 1, TP.HCM",
-    text: "Dịch vụ rất chuyên nghiệp, kỹ thuật viên đến đúng giờ và sửa chữa nhanh chóng. Tôi rất hài lòng với chất lượng dịch vụ.",
-  },
-  {
-    initial: "T",
-    name: "Trần Thị B",
-    location: "Quận 7, TP.HCM",
-    text: "Đội ngũ kỹ thuật viên rất nhiệt tình và chuyên nghiệp. Tủ lạnh nhà tôi được sửa chữa nhanh chóng và hoạt động tốt như mới.",
-  },
-  {
-    initial: "L",
-    name: "Lê Văn C",
-    location: "Quận Bình Thạnh, TP.HCM",
-    text: "Giá cả hợp lý, dịch vụ chuyên nghiệp. Đặc biệt ấn tượng với thái độ phục vụ tận tâm của nhân viên kỹ thuật.",
-  },
-];
+// const testimonials = [
+//   {
+//     initial: "N",
+//     name: "Nguyễn Văn A",
+//     location: "Quận 1, TP.HCM",
+//     text: "Dịch vụ rất chuyên nghiệp, kỹ thuật viên đến đúng giờ và sửa chữa nhanh chóng. Tôi rất hài lòng với chất lượng dịch vụ.",
+//   },
+//   {
+//     initial: "T",
+//     name: "Trần Thị B",
+//     location: "Quận 7, TP.HCM",
+//     text: "Đội ngũ kỹ thuật viên rất nhiệt tình và chuyên nghiệp. Tủ lạnh nhà tôi được sửa chữa nhanh chóng và hoạt động tốt như mới.",
+//   },
+//   {
+//     initial: "L",
+//     name: "Lê Văn C",
+//     location: "Quận Bình Thạnh, TP.HCM",
+//     text: "Giá cả hợp lý, dịch vụ chuyên nghiệp. Đặc biệt ấn tượng với thái độ phục vụ tận tâm của nhân viên kỹ thuật.",
+//   },
+// ];
