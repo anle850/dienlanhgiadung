@@ -12,7 +12,7 @@ export function getImagePath(src: string): string {
   return `${basePath}/${path}`;
 }
 
-export default function imageLoader({ src, width, quality }: { src: string; width: number; quality?: number }) {
+export default function imageLoader({ src}: { src: string; width: number; quality?: number }) {
   // Handle Next.js image optimization
   if (src.startsWith('/_next')) {
     return `${basePath}${src}`;

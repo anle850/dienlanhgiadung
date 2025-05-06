@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Header from "../components/Header";
-import { getStaticImagePath } from "@/components/Image";
+// import { getStaticImagePath } from "@/components/Image";
 
 export default function LayoutClient({
   children,
