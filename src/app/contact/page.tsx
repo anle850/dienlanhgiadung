@@ -14,14 +14,14 @@ export default function Contact() {
               <div>
                 <h3 className="text-lg font-medium mb-2">Địa Chỉ</h3>
                 <p className="text-gray-600">
-                  123 Đường ABC
+                  Ngã tư cầu gãy
                   <br />
-                  Quận XYZ, TP.HCM
+                  Sông Mỹ, Ninh Sơn
                 </p>
               </div>
               <div>
                 <h3 className="text-lg font-medium mb-2">Điện Thoại</h3>
-                <p className="text-gray-600">(0123) 456-7890</p>
+                <p className="text-gray-600">(086) 773-7446</p>
               </div>
               <div>
                 <h3 className="text-lg font-medium mb-2">Email</h3>

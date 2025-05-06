@@ -9,7 +9,7 @@ export default function Header() {
           <Link href="/" className="flex items-center space-x-2">
             <Image width={40} height={40} src="/logo-st.png" alt="Logo" />
             <div className="flex flex-col">
-              <span className="text-xl font-bold text-gray-900">Tận Tâm</span>
+              <span className="text-xl font-bold text-gray-900">An Tâm</span>
               <span className="text-sm text-gray-600">Điện Lạnh Gia Dụng</span>
             </div>
           </Link>
@@ -23,7 +23,7 @@ export default function Header() {
               </div> */}
             <div className="block md:flex items-center space-x-4">
               <a
-                href="tel:0123456789"
+                href="tel:0867737446"
                 className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:from-blue-700 hover:to-cyan-700 transition-all transform hover:scale-105 shadow-lg flex items-center space-x-2"
               >
                 <svg
@@ -39,7 +39,7 @@ export default function Header() {
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   />
                 </svg>
-                <span>(0123) 456-7890</span>
+                <span>(086) 773-7446</span>
               </a>
               <Link
                 href="/contact"
@@ -118,10 +118,10 @@ export default function Header() {
             </Link>
             <div className="pt-4 border-t space-y-4">
               <a
-                href="tel:0123456789"
+                href="tel:0867737446"
                 className="block bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-4 py-2 rounded-full text-center font-medium hover:from-blue-700 hover:to-cyan-700 transition-all"
               >
-                Gọi Ngay: (0123) 456-7890
+                Gọi Ngay: (086) 773-7446
               </a>
               <Link
                 href="/contact"

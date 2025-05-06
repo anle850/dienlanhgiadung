@@ -28,7 +28,7 @@ export default function Home() {
               </h1>
               <p className="text-xl md:text-2xl mb-12 text-gray-300 max-w-3xl mx-auto">
                 Đội ngũ kỹ thuật viên chuyên nghiệp với hơn 10 năm kinh nghiệm,
-                phục vụ 24/7 tại TP.HCM
+                phục vụ tận nơi tại Ninh Sơn
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in-up">
@@ -52,7 +52,7 @@ export default function Home() {
                 </svg>
               </Link>
               <a
-                href="tel:0123456789"
+                href="tel:0867737446"
                 className="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/20 transition-all flex items-center group"
               >
                 <svg
@@ -69,7 +69,7 @@ export default function Home() {
                   />
                 </svg>
                 <span className="border-b border-dashed border-white/50 group-hover:border-white">
-                  (0123) 456-7890
+                  (086) 773-7446
                 </span>
               </a>
             </div>
@@ -191,7 +191,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section - Thiết kế mới */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="text-blue-600 font-semibold text-sm uppercase tracking-wider">
@@ -239,7 +239,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section - Thiết kế mới */}
       <section className="py-20 bg-gradient-to-r from-blue-600 to-cyan-600 relative overflow-hidden">
@@ -276,7 +276,7 @@ export default function Home() {
                 </svg>
               </Link>
               <a
-                href="tel:0123456789"
+                href="tel:0867737446"
                 className="bg-blue-500/20 backdrop-blur-sm text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-500/30 transition-all inline-flex items-center justify-center"
               >
                 <svg
@@ -292,7 +292,7 @@ export default function Home() {
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   />
                 </svg>
-                (0123) 456-7890
+                (086) 773-7446
               </a>
             </div>
           </div>
@@ -333,7 +333,7 @@ const features = [
   {
     icon: "⚡",
     title: "Phục Vụ 24/7",
-    description: "Hỗ trợ khẩn cấp 24/7, có mặt trong vòng 30 phút tại TP.HCM",
+    description: "Hỗ trợ khẩn cấp 24/7, có mặt trong vòng 30 phút tại Ninh Sơn",
   },
 
   {

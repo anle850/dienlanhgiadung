@@ -25,7 +25,7 @@ export default function LayoutClient({
               <Link href="/" className="flex items-center space-x-2">
                 <Image width={40} height={40} src="/logo-st.png" alt="Logo" />
                 <div className="flex flex-col">
-                  <span className="text-xl font-bold text-white">Tận Tâm</span>
+                  <span className="text-xl font-bold text-white">An Tâm</span>
                   <span className="text-sm text-gray-400">
                     Điện Lạnh Gia Dụng
                   </span>
@@ -33,7 +33,7 @@ export default function LayoutClient({
               </Link>
               <p className="text-gray-400">
                 Dịch vụ sửa chữa và bảo trì thiết bị điện lạnh gia dụng chuyên
-                nghiệp, uy tín hàng đầu tại TP.HCM.
+                nghiệp, uy tín hàng đầu tại Ninh Sơn.
               </p>
               <div className="flex space-x-4">
                 <a
@@ -189,9 +189,9 @@ export default function LayoutClient({
                     />
                   </svg>
                   <span className="text-gray-400">
-                    123 Đường ABC, Quận XYZ
+                    Ngã tư cầu gãy
                     <br />
-                    TP. Hồ Chí Minh
+                    Sông Mỹ, Ninh Sơn
                   </span>
                 </li>
                 <li className="flex items-center">
@@ -209,10 +209,10 @@ export default function LayoutClient({
                     />
                   </svg>
                   <a
-                    href="tel:0123456789"
+                    href="tel:0867737446"
                     className="text-gray-400 hover:text-blue-400 transition-colors"
                   >
-                    (0123) 456-7890
+                    (086) 773-7446
                   </a>
                 </li>
                 <li className="flex items-center">
@@ -230,10 +230,10 @@ export default function LayoutClient({
                     />
                   </svg>
                   <a
-                    href="mailto:info@dienlanhgiadung.com"
+                    href="mailto:lenguyentrian@gmail.com"
                     className="text-gray-400 hover:text-blue-400 transition-colors"
                   >
-                    info@dienlanhgiadung.com
+                    lenguyentrian@gmail.com
                   </a>
                 </li>
               </ul>
@@ -268,8 +268,7 @@ export default function LayoutClient({
             <div className="container mx-auto px-4">
               <div className="flex flex-col md:flex-row justify-between items-center">
                 <p className="text-gray-400 text-sm text-center md:text-left">
-                  &copy; {new Date().getFullYear()} Điện Lạnh Gia Dụng. Tất cả
-                  quyền được bảo lưu.
+                  &copy; {new Date().getFullYear()} Điện Lạnh Gia Dụng An Tâm.
                 </p>
                 <div className="flex space-x-6 mt-4 md:mt-0">
                   <Link
