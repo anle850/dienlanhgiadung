@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Dịch Vụ Sửa Chữa Điện Lạnh Gia Dụng Tận Tâm",
+    title: "Dịch Vụ Sửa Chữa Điện Lạnh Gia Dụng An Tâm",
     description:
       "Dịch vụ sửa chữa và bảo trì thiết bị điện lạnh gia dụng tận nơi, an tâm chất lượng",
     other: {
