@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Header from "../components/Header";
+import { getStaticImagePath } from "@/components/Image";
 
 export default function LayoutClient({
   children,
@@ -23,7 +24,13 @@ export default function LayoutClient({
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
             <div className="space-y-6">
               <Link href="/" className="flex items-center space-x-2">
-                <Image width={40} height={40} src="/logo-st.png" alt="Logo" />
+                <Image
+                  width={40}
+                  height={40}
+                  //   src={getStaticImagePath("/logo-st.png")}
+                  src="/logo-st.png"
+                  alt="Logo"
+                />
                 <div className="flex flex-col">
                   <span className="text-xl font-bold text-white">An Tâm</span>
                   <span className="text-sm text-gray-400">

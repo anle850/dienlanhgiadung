@@ -1,8 +1,13 @@
 /** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === "production";
+const basePath = isProd ? "/dienlanhgiadung" : "";
 
 const nextConfig = {
-  basePath: isProd ? "/dienlanhgiadung" : "",
+  basePath,
+  assetPrefix: basePath,
+  images: {
+    path: `${basePath}/_next/image`,
+  },
   async headers() {
     return [
       {
