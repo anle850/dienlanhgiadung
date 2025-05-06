@@ -277,7 +277,7 @@ export default function Home() {
               </Link>
               <a
                 href="tel:0867737446"
-                className="bg-blue-500/20 backdrop-blur-sm text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-500/30 transition-all inline-flex items-center justify-center"
+                className="bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-full text-lg font-semibold transition-all inline-flex items-center justify-center"
               >
                 <svg
                   className="w-5 h-5 mr-2"
