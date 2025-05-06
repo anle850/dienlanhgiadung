@@ -4,9 +4,9 @@ const basePath = isProd ? "/dienlanhgiadung" : "";
 
 const nextConfig = {
   basePath,
-  assetPrefix: basePath,
+  output: "export",
   images: {
-    path: `${basePath}/_next/image`,
+    unoptimized: true,
   },
   async headers() {
     return [
