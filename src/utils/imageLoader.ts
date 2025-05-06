@@ -1,5 +1,4 @@
-const isProd = process.env.NODE_ENV === 'production';
-const basePath = isProd ? '/dienlanhgiadung' : '';
+import nextConfig from '../../next.config';
 
 export function getImagePath(src: string): string {
   // If the src is an absolute URL or data URL, return it as is
@@ -9,13 +8,13 @@ export function getImagePath(src: string): string {
 
   // If src starts with a slash, remove it
   const path = src.startsWith('/') ? src.slice(1) : src;
-  return `${basePath}/${path}`;
+  return `${nextConfig.basePath}/${path}`;
 }
 
 export default function imageLoader({ src}: { src: string; width: number; quality?: number }) {
   // Handle Next.js image optimization
   if (src.startsWith('/_next')) {
-    return `${basePath}${src}`;
+    return `${nextConfig.basePath}${src}`;
   }
   
   // For static images in public folder
