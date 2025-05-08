@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "@/components/Image";
 // import Image from "next/image";
 import Header from "../components/Header";
-// import { getStaticImagePath } from "@/components/Image";
+import { getStaticImagePath } from "@/components/Image";
 
 export default function LayoutClient({
   children,
@@ -28,8 +28,8 @@ export default function LayoutClient({
                 <Image
                   width={40}
                   height={40}
-                  //   src={getStaticImagePath("/logo-st.png")}
-                  src="/logo-st.png"
+                  src={getStaticImagePath("/logo-st.png")}
+                  //   src="/logo-st.png"
                   alt="Logo"
                 />
                 <div className="flex flex-col">

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "@/components/Image";
+import { getStaticImagePath } from "@/components/Image";
 
 export default function Header() {
   return (
@@ -7,7 +8,12 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex items-center space-x-2">
-            <Image width={40} height={40} src="/logo-st.png" alt="Logo" />
+            <Image
+              width={40}
+              height={40}
+              src={getStaticImagePath("/logo-st.png")}
+              alt="Logo"
+            />
             <div className="flex flex-col">
               <span className="text-xl font-bold text-gray-900">An Tâm</span>
               <span className="text-sm text-gray-600">Điện Lạnh Gia Dụng</span>
